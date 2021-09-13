@@ -16,9 +16,11 @@ In addition we will add support for the [WIGOS Meta Data Representation (WMDR)](
 
 ![OpenCDMS data layer](https://raw.githubusercontent.com/opencdms/media/main/architecture/opencdms-data-layer-1.0.png)
 
-The [opencdms-test-data](https://github.com/opencdms/opencdms-test-data) repository will be used as a source of test data for development to ensure interoperability is woking as intended.
+The [opencdms-test-data](https://github.com/opencdms/opencdms-test-data) repository will be used as a source of test data for development to ensure interoperability between systems works as intended.
 
 ## Dependencies
+
+`pyopencdms` officially supports Python 3.7.1 and above, 3.8, and 3.9 (in line with the [Pandas package](https://pandas.pydata.org/docs/getting_started/install.html#python-version-support))
 
 <img src="https://raw.githubusercontent.com/opencdms/media/main/architecture/pyopencdms-architecture-0.2.png" width="400" />
 
@@ -35,6 +37,8 @@ It is expected that SQLAlchemy objects, Panda's [DataFrames](https://pandas.pyda
 - Clone a copy of the `opencdms-test-data` repository
 
 ### Example python commands
+
+> NOTE: The example below is old and will be updated by the end of 2021.
 
 ```
 import os
